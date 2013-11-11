@@ -39,3 +39,5 @@ alias cdd='cd $1 & ls -liAh'
 PATH=$PATH:$HOME/bin
 
 export PATH
+unset USERNAME
+
