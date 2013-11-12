@@ -90,7 +90,7 @@ alias motd='cat /etc/motd'
 alias lss='pwd & ls -liAh'
 alias cdd='cd $1 & ls -liAh'
 
-alias dumax='du--max-depth=1 -h'
+alias dumax='du --max-depth=1 -h'
 
 
 # User specific environment and startup programs
