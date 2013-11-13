@@ -96,7 +96,7 @@ alias gg='echo grep -rnisH "  " *'
 #foo() { /path/to/command "$@" ;}
 
 ctlx() { /usr/sbin/apachectl "$@" ;}
-ggg() { grep -rnisH '"$@"' * ;}
+ggg() { grep -rnisH "$@" * ;}
 
 # User specific environment and startup programs
 
