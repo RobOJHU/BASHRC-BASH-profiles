@@ -96,7 +96,7 @@ alias dumax='du --max-depth=1 -h'
 #foo() { /path/to/command "$@" ;}
 
 ctlx() { /usr/sbin/apachectl "$@" ;}
-gg() { grep -rnisH "$@" * ;}
+ggg() { grep -rnisH "$@" * ;}
 
 # User specific environment and startup programs
 
