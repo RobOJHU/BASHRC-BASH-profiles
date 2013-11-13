@@ -91,11 +91,12 @@ alias lss='pwd & ls -liAh'
 alias cdd='cd $1 & ls -liAh'
 
 alias dumax='du --max-depth=1 -h'
-
+alias gg='echo grep -rnisH "  " *'
 # PASS ARGS TO profile
 #foo() { /path/to/command "$@" ;}
 
 ctlx() { /usr/sbin/apachectl "$@" ;}
+ggg() { grep -rnisH '"$@"' * ;}
 
 # User specific environment and startup programs
 
