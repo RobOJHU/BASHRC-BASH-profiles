@@ -95,7 +95,7 @@ alias dumax='du --max-depth=1 -h'
 # PASS ARGS TO profile
 #foo() { /path/to/command "$@" ;}
 
-ctl() { /usr/sbin/apachectl "$@" ;}
+ctlx() { /usr/sbin/apachectl "$@" ;}
 
 # User specific environment and startup programs
 
