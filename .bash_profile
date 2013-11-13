@@ -38,7 +38,7 @@ alias l.='ls -d .* --color=tty'
 
 ## shortcut  for iptables and pass it via sudo#
 alias ipt='sudo /sbin/iptables'
-alias control=' echo /usr/sbin/apachectl'
+alias control='echo /usr/sbin/apachectl'
 # display all rules #
 alias iptlist='sudo /sbin/iptables -L -n -v --line-numbers'
 alias iptlistin='sudo /sbin/iptables -L INPUT -n -v --line-numbers'
