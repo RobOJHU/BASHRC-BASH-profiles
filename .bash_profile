@@ -92,6 +92,10 @@ alias cdd='cd $1 & ls -liAh'
 
 alias dumax='du --max-depth=1 -h'
 
+# PASS ARGS TO profile
+#foo() { /path/to/command "$@" ;}
+
+ctla() { /usr/sbin/apachectl "$@" ;}
 
 # User specific environment and startup programs
 
