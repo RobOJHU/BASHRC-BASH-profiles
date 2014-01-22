@@ -54,9 +54,10 @@ alias httpdbin='cd /usr/sbin/httpd/'
 alias alist='alias'
 
 alias dumax='du --max-depth=1 -h'
-
 # User specific environment and startup programs
-
+## this GROUP is for th eSTD users to run LOGIN CMDs --RobO ##
+alias 20access='sudo /usr/local/sbin/secure-reader.sh'
+ 
 PATH=$PATH:$HOME/bin
 
 export PATH
