@@ -1,0 +1,73 @@
+# .bash_profile
+# THIS profile is from https://github.com/RobOJHU/BASHRC-BASH-profiles/new/master
+# USE it to replace exiciting DAR bash_profile for LIMITED users
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+HISTSIZE=2500
+# MORE alise --got from STBROWN github.com
+alias sudo='PATH=$PATH:/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin /usr/bin/sudo'
+alias gti='git '
+alias rm='rm -i'
+alias cx='clear'
+alias c='clear'
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+ ##
+# handy short cuts #
+alias h='history'
+alias j='jobs -l'
+# Do not wait interval 1 second, go fast #
+alias ping='ping -c 20 -s.2'
+alias ports='netstat -tulanp'
+alias cp='cp -i'
+alias mv='mv -i'
+alias l.='ls -d .* --color=tty'
+ 
+## get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+ 
+## get top process eating cpu ##
+alias pscpu='ps auxf | sort -nr -k 3'
+alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+ 
+## Get server cpu info ##
+alias cpuinfo='lscpu'
+ 
+## older system use /proc/cpuinfo ##
+##alias cpuinfo='less /proc/cpuinfo' ##
+ 
+## get GPU ram on desktop / laptop## 
+alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
+ 
+## this one saved by butt so many times ##
+alias wget='wget -c'
+ 
+alias ll='ls -l --color=tty'
+alias ls='ls -F --color=tty'
+alias d8='date --iso-8601'
+alias hh='cd $HOME'
+alias histl='history | less'
+alias hist='history'
+alias cdv='cd /var/www/html'
+alias cdw='cd /var/www/html'
+alias httpdconf='vim /etc/httpd/conf/httpd.conf'
+alias httpdbin='cd /usr/sbin/httpd/'
+alias alist='alias'
+
+alias dumax='du --max-depth=1 -h'
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/bin
+
+export PATH
+unset USERNAME
