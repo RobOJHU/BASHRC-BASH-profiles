@@ -7,9 +7,8 @@ if [ -f ~/.bashrc ]; then
 fi
 
 HISTSIZE=2500
-# MORE alise --got from STBROWN github.com
+
 alias sudo='PATH=$PATH:/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin /usr/bin/sudo'
-alias gti='git '
 alias rm='rm -i'
 alias cx='clear'
 alias c='clear'
@@ -39,16 +38,7 @@ alias psmem10='ps auxf | sort -nr -k 4 | head -10'
 alias pscpu='ps auxf | sort -nr -k 3'
 alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
  
-## Get server cpu info ##
-alias cpuinfo='lscpu'
- 
-## older system use /proc/cpuinfo ##
-##alias cpuinfo='less /proc/cpuinfo' ##
- 
-## get GPU ram on desktop / laptop## 
-alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
- 
-## this one saved by butt so many times ##
+## this one saved by butt so many times --RobO ##
 alias wget='wget -c'
  
 alias ll='ls -l --color=tty'
