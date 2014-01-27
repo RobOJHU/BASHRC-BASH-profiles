@@ -84,6 +84,11 @@ alias hist='history'
 alias cdv='cd /var/www/html'
 alias cdw='cd /var/www/html'
 alias cdd='cd /etc/init.d'
+
+alias obj='cd /etc/nagios/objects/'
+alias plug='cd /usr/lib64/nagios/plugins/'
+
+
 alias httpdconf='vim /etc/httpd/conf/httpd.conf'
 alias httpdbin='cd /usr/sbin/httpd/'
 alias alist='alias'
