@@ -25,7 +25,7 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
  # install  colordiff package :)
-alias diff='colordiff'
+#alias diff='colordiff'
 # handy short cuts #
 alias h='history'
 alias j='jobs -l'
