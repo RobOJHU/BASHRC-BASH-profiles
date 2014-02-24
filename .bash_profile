@@ -99,6 +99,7 @@ alias lss='pwd & ls -liAh'
 alias cdd='cd $1 & ls -liAh'
 
 alias dumax='du --max-depth=1 -h'
+alias lk='ls -t /boot/vmlinuz-* | sed "s/\/boot\/vmlinuz-//g" | head -n1'
 
 # PASS ARGS TO profile
 #foo() { /path/to/command "$@" ;}
