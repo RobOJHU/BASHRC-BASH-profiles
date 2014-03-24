@@ -29,6 +29,7 @@ alias fgrep='fgrep --color=auto'
 #alias diff='colordiff'
 # handy short cuts #
 alias h='history'
+alias ss='sestatus'
 alias j='jobs -l'
 # Do not wait interval 1 second, go fast #
 alias ping='ping -c 20 -s.2'
