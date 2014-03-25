@@ -7,6 +7,9 @@ if [ -f ~/.bashrc ]; then
 fi
 
 HISTSIZE=2500
+HISTTIMEFORMAT="%d/%m/%y %T "
+
+
 # MORE alise --got from STBROWN github.com
 alias sudo='PATH=$PATH:/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin /usr/bin/sudo'
 alias gti='git '
