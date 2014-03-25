@@ -7,7 +7,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 HISTSIZE=2500
-HISTTIMEFORMAT="%d/%m/%y %T "
+HISTTIMEFORMAT="%d/%m/%y %>"
 
 
 # MORE alise --got from STBROWN github.com
