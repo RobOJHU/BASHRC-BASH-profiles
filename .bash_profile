@@ -92,7 +92,7 @@ alias cdr='cd /etc/yum.repo.d'
 alias cdw='cd /var/www/html'
 alias cdd='cd /etc/init.d'
 
-alias obj='cd /etc/nagios/objects/'
+alias obj='cd /etc/nagios/objectsNEW/'
 alias plug='cd /usr/lib64/nagios/plugins/'
 
 
