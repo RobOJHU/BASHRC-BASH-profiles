@@ -94,7 +94,7 @@ alias cdd='cd /etc/init.d'
 
 alias obj='cd /etc/nagios/objectsNEW/'
 alias plug='cd /usr/lib64/nagios/plugins/'
-alias noget='wget -c --no-check-certificate'
+alias getno='wget -c --no-check-certificate'
 
 alias httpdconf='vim /etc/httpd/conf/httpd.conf'
 alias httpdbin='cd /usr/sbin/httpd/'
