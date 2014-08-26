@@ -5,6 +5,13 @@
 if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
+# Message of the day
+
+        if [ -r /etc/motd ]
+        then
+                cat /etc/motd
+        fi
+        
 
 HISTSIZE=2500
 HISTTIMEFORMAT="%d/%m  "
