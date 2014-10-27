@@ -116,7 +116,7 @@ alias lk='ls -t /boot/vmlinuz-* | sed "s/\/boot\/vmlinuz-//g" | head -n1'
 
 # PASS ARGS TO profile
 #foo() { /path/to/command "$@" ;}
-
+alias nman='service NetworkManager status ; chkconfig | grep Net ; cat /etc/resolv.conf  ; cat /etc/sysconfig/network-scripts/ifcfg-eth0'
 ctlx() { /usr/sbin/apachectl "$@" ;}
 gg() { grep -rnisH "$@" * ;}
 
