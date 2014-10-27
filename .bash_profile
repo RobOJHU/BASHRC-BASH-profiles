@@ -95,7 +95,7 @@ alias histl='history | less'
 alias hist='history'
 alias cdv='cd /var/www/html'
 alias cdl='cd /var/log'
-alias cdr='cd /etc/yum.repo.d'
+alias cdr='cd /etc/yum.repos.d'
 alias cdw='cd /var/www/html'
 alias cdd='cd /etc/init.d'
 
