@@ -114,7 +114,7 @@ alias cdd='cd $1 & ls -liAh'
 alias yx='yum --disableexclude=main'
 hubc() { wget --no-check-certificate https://raw.githubusercontent.com/RobOJHU/CONFIGURATION/master/"$@"  ; }
 hubb() { wget --no-check-certificate https://raw.githubusercontent.com/RobOJHU/BASHRC-BASH-profiles/master/"$@"  ; }
-hubc() { wget --no-check-certificate https://raw.githubusercontent.com/RobOJHU/Shell_Scripts/master/"$@"  ; }
+hubs() { wget --no-check-certificate https://raw.githubusercontent.com/RobOJHU/Shell_Scripts/master/"$@"  ; }
 alias dumax='du --max-depth=1 -h'
 alias lk='ls -t /boot/vmlinuz-* | sed "s/\/boot\/vmlinuz-//g" | head -n1'
 
