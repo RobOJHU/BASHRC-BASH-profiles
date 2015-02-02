@@ -111,6 +111,7 @@ alias alist='alias'
 alias motd='cat /etc/motd'
 alias lss='pwd & ls -liAh'
 alias cdd='cd $1 & ls -liAh'
+alias yx='yum --disableexclude=main'
 
 alias dumax='du --max-depth=1 -h'
 alias lk='ls -t /boot/vmlinuz-* | sed "s/\/boot\/vmlinuz-//g" | head -n1'
