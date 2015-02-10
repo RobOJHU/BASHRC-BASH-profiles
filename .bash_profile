@@ -98,6 +98,7 @@ alias cdv='cd /var/www/html'
 alias cdl='cd /var/log'
 alias cdr='cd /etc/yum.repos.d'
 alias getrepos='ll -liah /etc/yum.repos.d'
+alias gr='ll -liah /etc/yum.repos.d'
 alias cdw='cd /var/www/html'
 alias cdd='cd /etc/init.d'
 
