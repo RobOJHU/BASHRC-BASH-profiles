@@ -120,6 +120,8 @@ hubs() { wget --no-check-certificate https://raw.githubusercontent.com/RobOJHU/S
 alias dumax='du --max-depth=1 -h'
 alias lk='ls -t /boot/vmlinuz-* | sed "s/\/boot\/vmlinuz-//g" | head -n1'
 
+alias yumup='yum-complete-transaction;yum update;yx install kernel-uek;yum clean all;package-cleanup --oldkernels --count=2'
+
 # PASS ARGS TO profile
 #foo() { /path/to/command "$@" ;}
 alias nman='service NetworkManager status ; chkconfig | grep Net ; cat /etc/resolv.conf  ; cat /etc/sysconfig/network-scripts/ifcfg-eth0'
