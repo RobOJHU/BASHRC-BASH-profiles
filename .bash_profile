@@ -14,7 +14,7 @@ fi
         
 
 HISTSIZE=2500
-HISTTIMEFORMAT="%d/%m  "
+HISTTIMEFORMAT="%m/%d  "
 
 
 # MORE alise --got from STBROWN github.com
