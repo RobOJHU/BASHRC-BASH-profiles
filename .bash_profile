@@ -122,7 +122,7 @@ hubb() { wget --no-check-certificate https://raw.githubusercontent.com/RobOJHU/B
 hubs() { wget --no-check-certificate https://raw.githubusercontent.com/RobOJHU/Shell_Scripts/master/"$@"  ; }
 alias dumax='du --max-depth=1 -h'
 alias lk='ls -t /boot/vmlinuz-* | sed "s/\/boot\/vmlinuz-//g" | head -n1'
-
+alias chnfs='. /root/check_nfs.sh'
 alias yumup='yum-complete-transaction;yum -y update;yx -y install kernel-uek;yum clean all;package-cleanup --oldkernels --count=2'
 
 # PASS ARGS TO profile
