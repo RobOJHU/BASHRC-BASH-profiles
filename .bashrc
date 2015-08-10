@@ -2,9 +2,6 @@
 # THIS profile is from https://github.com/RobOJHU/BASHRC-BASH-profiles/new/master
 # USE it to replace exiciting DAR bashrc
 # Get the aliases and functions
-if [ -f ~/.bashrc ]; then
-        . ~/.bashrc
-fi
 # Message of the day
 
         if [ -r /etc/motd ]
