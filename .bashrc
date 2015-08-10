@@ -7,7 +7,7 @@ if [ -f ~/.bashrc ]; then
 fi
 # Message of the day
 
-        if [ -f /etc/motd ]
+        if [ -r /etc/motd ]
         then
                 cat /etc/motd
         fi
