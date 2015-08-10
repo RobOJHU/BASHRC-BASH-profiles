@@ -1,6 +1,6 @@
-# .bash_profile
+# .bashrc
 # THIS profile is from https://github.com/RobOJHU/BASHRC-BASH-profiles/new/master
-# USE it to replace exiciting DAR bash_profile
+# USE it to replace exiciting DAR bashrc
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
         . ~/.bashrc
@@ -23,6 +23,8 @@ alias gti='git '
 alias rm='rm -i'
 alias cx='clear'
 alias c='clear'
+alias cp='cp -i'
+alias mv='mv -i'
 ## a quick way to get out of current directory ##
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -44,8 +46,7 @@ alias j='jobs -l'
 # Do not wait interval 1 second, go fast #
 alias ping='ping -c 20 -s.2'
 alias ports='netstat -tulanp'
-alias cp='cp -i'
-alias mv='mv -i'
+
 alias l.='ls -d .* --color=tty'
 
 ## shortcut  for iptables and pass it via sudo#
@@ -130,11 +131,8 @@ alias yumup='yum-complete-transaction;yum -y update;yx -y install kernel-uek;yum
 alias nman='service NetworkManager status ; chkconfig | grep Net ; cat /etc/resolv.conf  ; cat /etc/sysconfig/network-scripts/ifcfg-eth0'
 ctlx() { /usr/sbin/apachectl "$@" ;}
 gg() { grep -rnisH "$@" * ;}
-
-# User specific environment and startup programs
-
-PATH=$PATH:$HOME/bin
-
-export PATH
-unset USERNAME
+# Source global definitions from the /et c/bashrc file  --RobO
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
 
