@@ -100,6 +100,7 @@ alias getrepos='ll -liah /etc/yum.repos.d'
 alias gr='ll -liah /etc/yum.repos.d'
 alias cdw='cd /var/www/html'
 alias cdd='cd /etc/init.d'
+alias viboot='vim /boot/grub/grub.conf'
 
 alias obj='cd /etc/nagios/objectsNEW/'
 alias plug='cd /usr/lib64/nagios/plugins/'
