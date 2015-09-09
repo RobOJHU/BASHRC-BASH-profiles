@@ -13,7 +13,7 @@
 HISTSIZE=2500
 HISTTIMEFORMAT="%m/%d  "
 
-
+alias vgrub='vim /boot/grub/grub.conf'
 # MORE alise --got from STBROWN github.com
 alias sudo='PATH=$PATH:/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin /usr/bin/sudo'
 alias gti='git '
